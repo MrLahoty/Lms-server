@@ -21,7 +21,7 @@ app.use(cookieParser());
 // cors => cross origin resource sharing
 app.use(
   cors({
-    origin: ["lms-client-ruddy.vercel.app"],
+    origin: ["https://lms-client-ruddy.vercel.app"],
     credentials: true,
   })
 );
